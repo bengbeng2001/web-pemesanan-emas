@@ -12,17 +12,17 @@ class CustomerSeeder extends Seeder
     {
         DB::table('users')->insert([
             [
-                'name' => 'Customer 1',
-                'email' => 'customer1@gmail.com',
-                'password' => Hash::make('password'),
+                'name' => 'Arizal',
+                'email' => 'arizal@gmail.com',
+                'password' => Hash::make('12345678'),
                 'role' => 'customer',
                 'created_at' => now(),
                 'updated_at' => now(),
             ],
             [
-                'name' => 'Customer 2',
-                'email' => 'customer2@gmail.com',
-                'password' => Hash::make('password'),
+                'name' => 'Akbar',
+                'email' => 'akbar@gmail.com',
+                'password' => Hash::make('12345678'),
                 'role' => 'customer',
                 'created_at' => now(),
                 'updated_at' => now(),
